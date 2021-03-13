@@ -26,6 +26,36 @@
         android:layout_height="wrap_content"
         android:text="다른 화면으로 문구 넘겨주기"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="홍준호"/>
+        <TextView
+            android:layout_width="0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="닉네임 변경"/>
+
+
+
+    </LinearLayout>
+
 
 
 </LinearLayout>
